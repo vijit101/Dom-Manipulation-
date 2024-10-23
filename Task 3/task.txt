@@ -1,0 +1,13 @@
+For your convenience, the post part has already been added. Your task is to add event listeners to the buttons.
+
+For that:-
+
+1. Creates a new div element with the class "blog-buttons".
+2. Create a new button element with the class "blog-button" and "move-up" and append it to the "blog-buttons" div.
+3. Create a new button element with the class "blog-button" and "move-down" and append it to the "blog-buttons" div.
+4. Create a new button element with the class "blog-button" and "delete" and append it to the "blog-buttons" div.
+5. Append the "blog-buttons" to "newbox" element
+6. Add event listener to the "move-up", "move-down" and "delete" button
+7. The move-up button should be able to move the blog item one step up in the "bloglist".
+8. The move-down button should be able to move the blog item one step down in the "bloglist".
+9. The delete button should be able to delete that particular blog from the dom element.
