@@ -1,0 +1,29 @@
+For the given markup and CSS, build a Social Media Page that would be able to utilize the post1 object present in the JS scaffold to build a container that would display the post on the Screen.
+
+Objectives:
+
+
+In the div with the id "posts" create a new div with the class "post". This div will contain:-
+
+1- h3 tag, which should contain the author of post1.
+
+2- img tag, which should contain the image present in post1.
+
+3- p tag, which should contain the content of post1
+
+4- A button which textContent "Like"
+
+5- An input tag with text type.
+
+6- A button with the textContent "Comment"
+
+7- A div with the class "post-footer" showing the number of likes and numbers of comments on the post using the template literal `Likes: ${post1.likes} Comments: ${post1.comments.length}`.
+
+8- A div with the class "comments-container" . Initially, the display should be set to none.
+
+9- For all the comments present in the comment array of the post1, create a p tag with each comment as its textContent and append it to "comments-container" div.
+
+10- Create a click event listener to the post-footer div, Which would set the display of the "comments-container" div to "block" or "none" on click depending on the value of the display of "comments-container" div..
+
+11- Append each of these to the div with "post" class in the same sequence as given in the problem Statement.
+
