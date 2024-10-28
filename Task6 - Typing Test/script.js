@@ -50,7 +50,7 @@ function retakeTest(){
     resultElement.setAttribute("style","display:none");
     typingAreaElement.setAttribute("style","display:inline-block");
     textInputElement.disabled = true;
-    sentenceElement.innerHTML = "";
+    textInputElement.value = "";
     startButton.disabled = false;
     typedInp = textInputElement.value.trim();
 }
