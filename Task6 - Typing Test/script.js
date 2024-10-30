@@ -78,6 +78,5 @@ function CalculateWords(){
 
 function CalculateTypingSpeed(){
     CalculateWords();
-    typingSpeed = wordCount/60;
-    
+    typingSpeed = (wordCount/10)*60;
 }
